@@ -11,8 +11,8 @@ int main (){
 	scanf("%f", &c);
 
 	f1= (a * b)/c;
-	f2= (a * a) + b + 5*c;
-	f3= a * b * c + b + c/3 * 5 - 1;
+	f2= (a * a) + b + (5*c);
+	f3= a * b * c + b + (c/3 * 5) - 1;
 	pot= (a * b * c);
 	f4= (pot * pot * pot)/2;
 
