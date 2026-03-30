@@ -1,0 +1,6 @@
+#Ignora ficheiros executáveis (sem extensão no linux)
+*
+!*.c
+!*,h
+!README.md
+!.gitignore
