@@ -9,7 +9,7 @@ int main (){
 	if (sal <= 1000){
 		aum= sal * 0.15;
 		sal_aum= sal + aum;
-	} else if (sal > 1000 && sal <= 2000){
+	} else if (sal <= 2000){
 		aum= sal * 0.1;
 		sal_aum= sal + aum;
 	}else if (sal > 2000) {
