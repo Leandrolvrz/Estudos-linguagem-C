@@ -7,23 +7,6 @@
 
 int main (){
 	int caminho;
-	//Printar o mapa dado no exercicio 7.8 do livro Indroducao a Progamacao com linguagem C
-	printf ("Mapa:         \n");
-	printf ("   Partida    \n");
-	//Primeira parte do mapa
-	printf ("  /  |  \\    \n");
-	printf (" 1   2    3   \n");
-	printf (" |   |   /    \n");
-	//Segunda parte de caminhos
-	printf (" |   |  5     \n");
-	printf (" |   |   \\   \n");
-	printf (" 4   ~    7   \n");
-	printf (" |         \\ \n");
-	//Terceira linha de caminhos
-	printf (" 6         8  \n");
-	printf ("  \\       /  \n");
-	//Quarta linha de caminhos
-	printf ("   Destino  \n\n");
 
 	//Validação e escolha do caminho
 	printf ("Escolha seu primeiro caminho: ");
@@ -40,15 +23,15 @@ int main (){
 							printf("Parabens, voce chegou ao destino da forma mais rapida. VOCE GANHOU!!\n");
 						}
 						else {
-							printf ("Caminho invalido\n");
+							printf ("Caminho invalido\n\n");
 						}
 				}
 				else {
-					printf("Caminho invalido\n");
+					printf("Caminho invalido\n\n");
 				}
 	}
 	else if (caminho == 2){
-		printf ("O caminho escolhido nao leva a nenhum lugar. Voce perdeu!");
+		printf ("O caminho escolhido nao leva a nenhum lugar. Voce perdeu!\n\n");
 	}
 	else if (caminho == 3){
 		printf ("Digite sua segunda escolha: ");
@@ -60,26 +43,43 @@ int main (){
 						printf ("Digite o quarto caminho: ");
 						scanf ("%i", &caminho);
 							if (caminho == 8){
-								printf("Parabens, voce chegou ao destino!!\n");
+								printf("Parabens, voce chegou ao destino!!\n\n");
 							}
 							else {
-								printf("Caminho invalido\n");
+								printf("Caminho invalido\n\n");
 							}
 					}
 					else {
-						printf("Caminho invalido\n");
+						printf("Caminho invalido\n\n");
 					}
 			}
 			else {
-				printf("Caminho invalido\n");
+				printf("Caminho invalido\n\n");
 			}
 	}
 
 	else {
-		printf("Caminho invalido\n");
+		printf("Caminho invalido\n\n");
 	}
+
+	//Printar o mapa dado no exercicio 7.8 do livro Indroducao a Progamacao com linguagem C
+        printf ("Mapa:         \n");
+        printf ("   Partida    \n");
+        //Primeira parte do mapa
+        printf ("  /  |  \\    \n");
+        printf (" 1   2    3   \n");
+        printf (" |   |   /    \n");
+        //Segunda parte de caminhos
+        printf (" |   |  5     \n");
+        printf (" |   |   \\   \n");
+        printf (" 4   ~    7   \n");
+        printf (" |         \\ \n");
+        //Terceira linha de caminhos
+        printf (" 6         8  \n");
+        printf ("  \\       /  \n");
+        //Quarta linha de caminhos
+        printf ("   Destino  \n\n");
 
 return 0;
 }
-
 
