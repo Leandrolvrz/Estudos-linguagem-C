@@ -26,7 +26,7 @@ int main(){
 		multa = 574,62;
 		ponto = 7;
 		apreender_carteira = 0;
-		//printf("APREENSÂO DA CARTEIRA E SUSPENSÂO DO DIREITO DE DIRIGIR!!");
+		//printf("!! APREENSÂO DA CARTEIRA E SUSPENSÂO DO DIREITO DE DIRIGIR!!");
 	}
 	if (apreender_carteira == 0){
 		printf ("O valor da multa e: R$%.2f, possui %.2f pontos na carteira\n", multa, ponto);
