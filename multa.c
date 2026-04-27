@@ -14,11 +14,11 @@ int main(){
 	//Calcular velocidade acima da permitida
 	acima = velocidade_carro / velocidade_via; //Se o valor for maior que 1, significa que o carro ultrapassou o limite de velocidade
 
-	if (acima >= 1 && acima < 1.2){
+	if (acima > 1.2){
 		multa = 85,13;
 		ponto = 4;
 	}
-	if (acima >= 1.2 && acima < 1.5){
+	if (acima < 1.5){
 		multa = 127,69;
 		ponto = 5;
 	}
